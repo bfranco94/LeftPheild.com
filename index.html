@@ -5,7 +5,19 @@
   </head>
 
   <body>
+    <p>
+      <script src="https://connect.soundcloud.com/sdk/sdk-3.1.1.js"></script>
+<script>
+SC.initialize({
+  client_id: 'YOUR_CLIENT_ID'
+});
 
+var track_url = 'https://soundcloud.com/leftpheild/likes';
+SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
+  console.log('oEmbed response: ', oEmbed);
+});
+</script>
+    </p>
   </body>
 
   <footer>
