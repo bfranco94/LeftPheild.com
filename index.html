@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.1.1.js"></script>
+    
     <title>Left Pheild</title>
   </head>
 
   <body>
     <p>
-      <script src="https://connect.soundcloud.com/sdk/sdk-3.1.1.js"></script>
-<script>
-SC.initialize({
-  client_id: 'b0a55481ef5bdd9abaf4f638ee6af6d6'
-});
+      
+  <script>
+    SC.initialize({
+    client_id: 'b0a55481ef5bdd9abaf4f638ee6af6d6'
+  });
 
-var track_url = 'https://soundcloud.com/leftpheild/likes';
-SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
-  console.log('oEmbed response: ', oEmbed);
-});
-</script>
+  var track_url = 'https://soundcloud.com/leftpheild/likes';
+  SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
+    console.log('oEmbed response: ', oEmbed);
+  });
+  </script>
     </p>
   </body>
 
