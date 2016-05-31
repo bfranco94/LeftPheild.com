@@ -21,3 +21,8 @@ p{
 		}
 		#top { top: 80; }
 		#bottom { bottom: 0; }
+  #navtop {
+		left: 0; right: 0;
+		height: 35px;
+		}
+		#navtop{ top: 0; }
