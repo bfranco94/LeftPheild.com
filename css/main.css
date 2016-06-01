@@ -3,6 +3,7 @@ h1{
 }
 #musicplayer{
   text-align: center;
+  top:90px;
 }
 #top, #bottom, #left, #right, #navtop{
 	background: #000000;
