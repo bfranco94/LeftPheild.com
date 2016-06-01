@@ -2,7 +2,7 @@ h1{
   text-align:center;
   color:#ffffff;
   background-color: #000000;
-  border-bottom: 10px;
+  border-bottom: 30px;
 }
 #musicplayer{
   text-align: center;
@@ -23,7 +23,7 @@ h1{
 		left: 0; right: 0;
 		height: 15px;
 		}
-		#top { top:80px; }
+		#top { top:70px; }
 		#bottom { bottom: 0; }
   #navtop {
 		left: 0; right: 0;
