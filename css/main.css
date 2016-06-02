@@ -1,17 +1,13 @@
 html{
 
 }
-body{
+h1{
   background-image: url("http://www.leftpheild.com/images/giphy.gif");
   background-size: auto auto;
   background-repeat: no-repeat;
   background-position: center;
-  color:	yellow;
-
-}
-h1{
   text-align:center;
-  color:	000000;
+  color:	#000000;
   border-bottom: 30px;
 }
 #musicplayer{
