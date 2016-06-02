@@ -3,7 +3,7 @@ html{
 }
 body{
   background-image: url("http://www.leftpheild.com/images/giphy.gif");
-  background-size: 1000px 1000px;
+  background-size: 1000px 2000px;
   background-repeat: no-repeat;
   background-position: center;
   color:	yellow;
@@ -11,7 +11,7 @@ body{
 }
 h1{
   text-align:center;
-  color:	yellow;
+  color:	000000;
   border-bottom: 30px;
 }
 #musicplayer{
