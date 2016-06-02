@@ -1,7 +1,8 @@
 html{
   background-color: #4b0082;
-  background-image:shttp://www.leftpheild.com/images/giphy.gif;
-
+body{
+  background-image: url("http://www.leftpheild.com/images/giphy.gif");
+}
 }
 h1{
   text-align:center;
