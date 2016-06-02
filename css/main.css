@@ -5,6 +5,7 @@ body{
   background-image: url("http://www.leftpheild.com/images/giphy.gif");
   background-size: 1000px 1000px;
   background-repeat: no-repeat;
+  background-position: center;
 }
 h1{
   text-align:center;
