@@ -12,7 +12,7 @@ h1{
   top:90px;
 }
 #top, #bottom, #left, #right, #navtop{
-	background: #000000;
+	background: #4b0082;
 	position: fixed;
 	}
 	#left, #right {
