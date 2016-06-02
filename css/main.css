@@ -1,5 +1,5 @@
 html{
-  background-color: #000000;
+  background-color: #4b0082;
 
 }
 h1{
@@ -12,7 +12,7 @@ h1{
   top:90px;
 }
 #top, #bottom, #left, #right, #navtop{
-	background: #4b0082;
+	background: #000000;
 	position: fixed;
 	}
 	#left, #right {
