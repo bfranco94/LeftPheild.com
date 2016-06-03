@@ -4171,9 +4171,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
-  margin-bottom: 0px;
-  border: 0px solid #000000;
+  min-height: 25px;
+  margin-bottom: 0;
+  border: 20px solid #000000;
 }
 @media (min-width: 768px) {
   .navbar {
