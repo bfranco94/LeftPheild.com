@@ -6,7 +6,7 @@ html{
   width: auto;
   background-image: url("http://LeftPheild.com/images/space.gif");
   background-position: bottom;
-  background-size: cover;
+  background-size: auto auto;
   background-repeat: no-repeat;
 
 
