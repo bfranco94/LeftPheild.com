@@ -4,6 +4,9 @@ html{
   height: auto;
   margin: auto;
   width: auto;
+  background-image: url("http://LeftPheild.com/images/space.gif");
+
+
 }
 h1{
   background-image: url("http://LeftPheild.com/images/giphy.gif");
@@ -13,13 +16,6 @@ h1{
   text-align:center;
   color:	#4b0082;
   border-bottom: 30px;
-}
-body{
-  background-image: url("http://LeftPheild.com/images/space.gif");
-  height: auto;
-  background-size: auto auto;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 footer{
   text-align:center;
