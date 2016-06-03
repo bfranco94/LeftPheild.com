@@ -6,13 +6,13 @@ html{
   width: auto;
   background-image: url("http://LeftPheild.com/images/space.gif");
   background-repeat: no-repeat;
-
+  background-size: cover;
 
 
 }
 h1{
   background-image: url("http://LeftPheild.com/images/giphy.gif");
-  background-size: 2000px auto;
+  background-size: auto auto;
   background-repeat: no-repeat;
   background-position: center;
   text-align:center;
