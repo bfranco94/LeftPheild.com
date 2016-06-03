@@ -2,6 +2,9 @@ html{
   background-color: #4b0082;
   color:	#4b0082;
   overflow: scroll;
+  height: 100%;
+  margin: auto;
+  width: 960px;
 }
 h1{
   background-image: url("http://LeftPheild.com/images/giphy.gif");
