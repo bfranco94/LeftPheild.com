@@ -1,9 +1,9 @@
 html{
   background-color: #4b0082;
   color:	#4b0082;
-  height: 100%;
+  height: auto;
   margin: auto;
-  width: 960px;
+  width: auto;
 }
 h1{
   background-image: url("http://LeftPheild.com/images/giphy.gif");
