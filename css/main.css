@@ -1,6 +1,7 @@
 html{
   background-color: #4b0082;
   color:	#4b0082;
+  overflow: scroll;
 }
 h1{
   background-image: url("http://LeftPheild.com/images/giphy.gif");
