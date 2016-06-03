@@ -10,7 +10,7 @@ html{
 }
 h1{
   background-image: url("http://LeftPheild.com/images/giphy.gif");
-  background-size: auto 2000px;
+  background-size: 2000px auto;
   background-repeat: no-repeat;
   background-position: center;
   text-align:center;
