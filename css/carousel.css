@@ -5,7 +5,8 @@
 body {
   padding-bottom: 20px;
   color: #5a5a5a;
-  overflow: scroll;
+  overflow:visible;
+  overflow:scroll;
 }
 
 
