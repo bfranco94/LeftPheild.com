@@ -3,7 +3,8 @@ html{
   color:	#4b0082;
   height: auto;
   margin: auto;
-  width: auto;
+  width: auto;  background-image: url("http://LeftPheild.com/images/space.gif");
+
 }
 h1{
   background-image: url("http://LeftPheild.com/images/giphy.gif");
