@@ -3,8 +3,9 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   color: #5a5a5a;
+  overflow: scroll;
 }
 
 
