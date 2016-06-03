@@ -14,6 +14,9 @@ h1{
   color:	#4b0082;
   border-bottom: 30px;
 }
+footer{
+  text-align:center;
+}
 #musicplayer{
   text-align: center;
   top:90px;
