@@ -1,6 +1,6 @@
 var ig = {};
 // !!! USE YOUR OWN TOKEN
-ig.token = '	3110368426.1677ed0.99b233cae0a14b0a972027b4794bee01';
+ig.token = '3110368426.1677ed0.99b233cae0a14b0a972027b4794bee01';
 
 ig.init = function() {
   $('.instagram').each(function(i) {
