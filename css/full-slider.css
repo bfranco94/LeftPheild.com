@@ -46,8 +46,7 @@
  }
 
  .item:nth-child(1) {
-     background: #74C390;
- }
+    background-image: url("/images/orou.png") }
 
  .item:nth-child(2) {
      background: #51BCE8;
