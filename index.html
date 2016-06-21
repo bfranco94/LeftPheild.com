@@ -59,7 +59,7 @@
     <!--End Ad-->
   </head>
 
-  <body style="background-image: url('/images/orou.png') background-position: 50% 50%; background-repeat:no-repeat;">
+  <body style="background-image: url('/images/orou.png') background-position:center; background-repeat:no-repeat;">
     <!--New-->
     <div class="navbar-wrapper">
       <div class="container">
@@ -90,56 +90,39 @@
   </div>
 </div>
 <!--New-->
-      <!-- Full Page Image Background Carousel Header -->
-      <header id="myCarousel" class="carousel slide">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for Slides -->
-          <div class="carousel-inner">
-              <div class="item active">
-                  <!-- Set the first background image using inline CSS below. -->
-                  <div class="fill" style="background-image:url('');"></div>
-                  <div class="carousel-caption">
-                    <h1>Welcome to Left Pheild</h1>
-                    <p>This is the Alpha of Our Amazing Website!</p>
-                    <p>I thank you for being one of the first to visit our small yet bountiful community.</p>
-                    <p><a class="btn btn-lg btn-primary" href="signup" role="button">Sign up today</a></p>
-                  </div>
-              </div>
-              <div class="item">
-
-                  <!-- Set the second background image using inline CSS below. -->
-                  <div class="fill" style="background-image:url('');"></div>
-                  <div class="carousel-caption">
-                    <h1>Weekly Music Video</h1>
-                    <p><iframe  width="100%" height="300px" src="https://www.youtube.com/embed/ZYrZRc2zJfM" frameborder="0" allowfullscreen></iframe></p>
-                      <h2>Latest Videos</h2>
-                  </div>
-              </div>
-              <div class="item">
-                  <!-- Set the third background image using inline CSS below. -->
-                  <div class="fill" style="background-image:url('');"></div>
-                  <div class="carousel-caption">
-                    <h1>Featured Song</h1>
-                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/267548978&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                  </div>
-              </div>
+<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+        <div class="active item">
+          <div class="fill" style="background-image:url('');"></div>
+          <div class="carousel-caption">
+            <h1>Welcome to Left Pheild</h1>
+            <p>This is the Alpha of Our Amazing Website!</p>
+            <p>I thank you for being one of the first to visit our small yet bountiful community.</p>
+            <p><a class="btn btn-lg btn-primary" href="signup" role="button">Sign up today</a></p>
           </div>
-
-          <!-- Controls -->
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-              <span class="icon-prev"></span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-              <span class="icon-next"></span>
-          </a>
-
-      </header>
+        </div>
+        <div class="item">
+          <div class="fill" style="background-image:url('');"></div>
+          <div class="carousel-caption">
+            <h1>Weekly Music Video</h1>
+            <p><iframe  width="100%" height="300px" src="https://www.youtube.com/embed/ZYrZRc2zJfM" frameborder="0" allowfullscreen></iframe></p>
+              <h2>Latest Videos</h2>
+          </div>
+        </div>
+        <div class="item">
+          
+        </div>
+    </div>
+    <!-- Carousel nav -->
+    <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+</div>
       <!-- jQuery -->
       <script src="js/jquery.js"></script>
 
