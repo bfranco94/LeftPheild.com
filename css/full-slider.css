@@ -49,6 +49,7 @@
     background-image: url("/images/l7.jpg");
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat-y;
   }
 
  .item:nth-child(2) {
