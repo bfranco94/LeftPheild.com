@@ -12,6 +12,10 @@ html {
 }
 #body1{
   margin:0;
+  background-image: url("/images/giphy.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 body {
   margin: 15px;
