@@ -47,8 +47,8 @@
 
  .item:nth-child(1) {
     background-image: url("/images/l7.jpg");
-    background-position: cover;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
