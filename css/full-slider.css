@@ -62,9 +62,11 @@ body {
 
 .carousel-inner {
     height: 100%;
-    vertical-align: middle;
 }
 
+.carousel-caption{
+  vertical-align: middle;
+}
 /* Background images are set within the HTML using inline CSS, not here */
 
 .fill {
