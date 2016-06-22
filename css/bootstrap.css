@@ -18,7 +18,8 @@ html {
   background-repeat: no-repeat;
 }
 body {
-  margin: 25px;
+  margin: 15px;
+  margin-top: auto;
 
 }
 article,
