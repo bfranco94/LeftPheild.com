@@ -21,6 +21,7 @@ p {
   text-align: center;
   font-size: 14px;
   color: #000;
+  opacity:10;
 }
 
 p + p {
@@ -102,7 +103,7 @@ a:hover {
   font-size: 12px;
   display: block;
   width: 100%;
-  opacity: 3;
+  opacity: 10;
   color: #000;
 }
 
