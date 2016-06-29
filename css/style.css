@@ -87,8 +87,8 @@ a:hover {
   font-size: 10px;
   display: block;
   width: 100%;
-  opacity: 3;
-  color: #fff;
+  opacity: 10;
+  color: #000;
 }
 
 .links li a {
