@@ -20,8 +20,6 @@ p {
   line-height: 1.6em;
   text-align: center;
   font-size: 14px;
-  color: #000;
-  opacity:10;
 }
 
 p + p {
@@ -87,8 +85,8 @@ a:hover {
   font-size: 10px;
   display: block;
   width: 100%;
-  opacity: 10;
-  color: #000;
+  opacity: 0.6;
+  color: #FFF;
 }
 
 .links li a {
@@ -96,14 +94,14 @@ a:hover {
   font-smoothing: subpixel-antialiased;
   font-family: 'Dosis', sans-serif;
   text-transform: uppercase;
-  text-align: right;
+  text-align: center;
   padding: 0.25em 0;
   letter-spacing: 2px;
   font-weight: 200;
   font-size: 12px;
   display: block;
   width: 100%;
-  opacity: 10;
+  opacity: 0.4;
   color: #000;
 }
 
@@ -131,4 +129,7 @@ a:hover {
 
 .hide {
   opacity: 0;
+}
+#container{
+  align-self: center;
 }
