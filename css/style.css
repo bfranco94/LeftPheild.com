@@ -131,12 +131,9 @@ a:hover {
 .hide {
   opacity: 0;
 }
+@import "bourbon";
 
-/* Drop Down */
-#boss,
-*, *:before, *:after {
-  box-sizing: border-box;
-}
+*,*:before,*:after {@include box-sizing(border-box);}
 
 body {
   font-family: 'Open Sans';
@@ -152,34 +149,36 @@ body {
   max-width: 18em;
   margin: 3em auto;
 }
-.dropdown-container button {
-  width: 100%;
-  border: none;
-  background: #333;
-  color: #fff;
-  padding: 1em;
-  text-transform: uppercase;
-  font-weight: 800;
-}
-.dropdown-container ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-.dropdown-container ul li {
-  border-bottom: 1px solid #333;
-}
-.dropdown-container ul a {
-  display: block;
-  padding: 1.2em .5em;
-  background: #444;
-  color: #fff;
-  font-size: .9em;
-  text-decoration: none;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-.dropdown-container ul a:hover {
-  background: #393939;
+  button {
+    width:100%;
+    border: none;
+    background: #333;
+    color: #fff;
+    padding: 1em;
+    text-transform: uppercase;
+    font-weight:800;
+  }
+
+  ul {
+    list-style: none;
+    padding:0; margin:0;
+    text-align: center;
+  }
+    li {
+      border-bottom: 1px solid #333;
+    }
+    a {
+      display:block;
+      padding: 1.2em .5em;
+      background: #444;
+      color: #fff;
+      font-size: .9em;
+      text-decoration: none;
+    }
+      @include transition(all .2s ease);
+      &:hover {
+        background: #393939;
+      }
+    }
+  }
 }
