@@ -1,12 +1,10 @@
-/* My additions */
 @import url(http://fonts.googleapis.com/css?family=Gabriela|Dosis:200);
-
 body {
   font-family: "Vidaloka", serif;
   font-smoothing: antialiased;
   font-weight: normal;
   background: #151618;
-  color: #FFF;
+  color: #000;
   margin: 0;
 }
 
@@ -50,29 +48,32 @@ a:hover {
   position: absolute;
   height: 100%;
   width: 100%;
+  align-content: center;
 }
-
 
 .controls {
   font-smoothing: subpixel-antialiased;
   position: absolute;
   right: 20px;
   top: 0;
-  
+  visibility: hidden;
 }
 
 .links {
   position: absolute;
   list-style: none;
-  width: 120px;
+  width: 100%;
   bottom: 40px;
-  right: 20px;
   padding: 0;
-  margin: 0;
-  
+  background-color: #d3d3d3;
 }
 
-.links p{
+.links li {
+  border-bottom: #222 1px solid;
+  border-bottom: rgba(255, 255, 255, 0.1) 1px solid;
+}
+
+.links p {
   font-smoothing: subpixel-antialiased;
   font-family: 'Dosis', sans-serif;
   text-transform: uppercase;
@@ -83,13 +84,8 @@ a:hover {
   font-size: 10px;
   display: block;
   width: 100%;
-  opacity: 0.6;
-  color: #FFF;
-}
-
-.links li {
-  border-bottom: #222 1px solid;
-  border-bottom: rgba(255,255,255,0.1) 1px solid;
+  opacity: 10;
+  color: #000;
 }
 
 .links li a {
@@ -97,15 +93,15 @@ a:hover {
   font-smoothing: subpixel-antialiased;
   font-family: 'Dosis', sans-serif;
   text-transform: uppercase;
-  text-align: right;
+  text-align: center;
   padding: 0.25em 0;
   letter-spacing: 2px;
   font-weight: 200;
   font-size: 12px;
   display: block;
   width: 100%;
-  opacity: 0.4;
-  color: #FFF;
+  opacity: 10;
+  color: #000;
 }
 
 .links li a:hover {
@@ -132,4 +128,56 @@ a:hover {
 
 .hide {
   opacity: 0;
+}
+
+@import "bourbon";
+*,
+*:before,
+*:after {
+  @include box-sizing(border-box);
+}
+
+body {
+  font-family: 'Open Sans';
+  background: #f5f5f5;
+}
+
+.wrap {
+  max-width: 44em;
+  margin: 0 auto;
+}
+
+.dropdown-container {
+  max-width: 18em;
+  margin: 3em auto;
+  button {
+    width: 100%;
+    border: none;
+    background: #333;
+    color: #fff;
+    padding: 1em;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    li {
+      border-bottom: 1px solid #333;
+    }
+    a {
+      display: block;
+      padding: 1.2em .5em;
+      background: #444;
+      color: #fff;
+      font-size: .9em;
+      text-decoration: none;
+      @include transition(all .2s ease);
+      &:hover {
+        background: #393939;
+      }
+    }
+  }
 }
