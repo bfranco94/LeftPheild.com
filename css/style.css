@@ -131,3 +131,55 @@ a:hover {
 .hide {
   opacity: 0;
 }
+
+/* Drop Down */
+#boss,
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans';
+  background: #f5f5f5;
+}
+#boss,
+.wrap {
+  max-width: 44em;
+  margin: 0 auto;
+}
+#boss,
+.dropdown-container {
+  max-width: 18em;
+  margin: 3em auto;
+}
+.dropdown-container button {
+  width: 100%;
+  border: none;
+  background: #333;
+  color: #fff;
+  padding: 1em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.dropdown-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.dropdown-container ul li {
+  border-bottom: 1px solid #333;
+}
+.dropdown-container ul a {
+  display: block;
+  padding: 1.2em .5em;
+  background: #444;
+  color: #fff;
+  font-size: .9em;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.dropdown-container ul a:hover {
+  background: #393939;
+}
